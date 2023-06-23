@@ -1,13 +1,13 @@
 # Table of Contents
-- [Bangalore House Price Prediction](#youtube-comment-analysis)
+- [Bangalore House Price Prediction](#price-prediction)
 - [Flask Website](#flask-website)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Running the Website](#running-the-website)
 # Demo Video
-[Youtube Video Preview](https://youtu.be/o2KcglsiGAE)
-# <a name="youtube-comment-analysis"></a>Bangalore House Price Prediction
-In my project, I utilized the YouTube Data API to fetch comments from a specific video and performed text preprocessing tasks such as cleaning, tokenization, and removal of stopwords. Additionally, I integrated over 100 emojis and 520 words using Python libraries like emoji and regular expressions to identify and extract emojis and stickers from the comments. To analyze the sentiment of the comments, I employed the VADER (Valence Aware Dictionary and sEntiment Reasoner) sentiment analysis model, which provided sentiment scores including positive, negative, neutral, and compound scores. To visually represent the emotions detected in the comments, I created a bar graph highlighting the most common emotions. Finally, I developed a Flask web application that offers a user-friendly interface where users can input a YouTube video URL and retrieve sentiment analysis results.
+[Youtube Video Preview](https://youtu.be/0HbCPjbMnYo)
+# Bangalore House Price Prediction
+In this project, I have developed a web application using Flask and Bootstrap for apartment price prediction in Bangalore. The code utilizes ridge regression to make predictions based on various input features such as location, total square feet area, number of bathrooms, and number of bedrooms. Bootstrap is used for templating, providing a responsive and visually appealing design to the web application. The Flask framework is used to create a user-friendly interface where users can input the necessary information and get a predicted price for the apartment. The application takes the input data, preprocesses it, and passes it through the trained ridge regression model to generate a prediction. The predicted price is then displayed to the user in a Bootstrap-styled format. Flask and Bootstrap together provide a powerful combination for building interactive and visually appealing web applications.
 # <a name="flask-website"></a>Flask Website
 Thank you for cloning the Flask Website repository! This document will guide you through the steps to run the website locally on your machine.
 
